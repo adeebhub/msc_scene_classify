@@ -22,15 +22,15 @@ All what is required is the basic parameters which includes:
         visualise(dataset_dir, log_dir, tfrecord_filename, convlayer) and 
         create_dataset(dataset_dir, tfrecord_filename)')
 
-# Output filename for the naming the TFRecord file
+## Output filename for the naming the TFRecord file
 
 tfrecord_filename: The output filename that holds the TFRecord file
 
-# The Convolutional layer to visualise
+## The Convolutional layer to visualise
 
 convlayer: The convolutional layer to visualise When calling Visualise
 
-# Training or evaluation
+## Training or evaluation
 Having set the parametres all that is required is to run:
 
 scene_classify.py -- --action= 'action' --*
